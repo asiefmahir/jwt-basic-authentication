@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container {
+	width: 100%;
+}
+
+.form-container {
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.1),
+		0px -5px 10px 10px rgba(0, 0, 0, 0.1);
+	/* fallback */
+	box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+	width: 100%;
+	margin-bottom: 14px;
+	padding: 0.7rem 0.9rem;
+	font-size: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.input-box::placeholder {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.submit-button {
+	border: none;
+	background-color: #1877f2;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background-color: #1264d0;
+}
+
+.forgot-password {
+	width: 100%;
+	text-align: center;
+}
+
+.btn-link {
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.forgot-password-link {
+	color: #1877f2;
+}
+
+.forgot-password-link:hover {
+	text-decoration: underline;
+}
+
+.form-container-upper-section {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	padding-bottom: 1.3rem;
+}
+
+.new-account-button-section {
+	width: 100%;
+	text-align: center;
+	margin-top: 1.3rem;
+}
+
+.new-account-link {
+	background-color: #42b72a;
+	display: inline-block;
+	padding: 0.7rem 0.9rem;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+form,
+input,
+span,
+main,
+section,
+span {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #1d1f22;
+}
+.container {
+	width: 100%;
+}
+
+.form-container {
+	width: 490px;
+	margin: 0 auto;
+	box-shadow: 0px 3px 10px 2px rgb(226, 226, 226);
+	border-radius: 8px;
+	margin-top: 100px;
+}
+
+/* form title style */
+.form-title {
+	padding: 1rem;
+	border-bottom: 1px solid rgb(226, 226, 226);
+	display: flow-root;
+	text-align: center;
+}
+
+.title-text {
+	width: 90%;
+	float: left;
+}
+
+.title-main {
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.title-sub {
+	font-size: 0.9rem;
+	color: rgb(135, 134, 134);
+	margin-top: 3px;
+}
+
+.title-cross-button {
+	font-size: 1.3rem;
+	color: rgb(155, 155, 155);
+	cursor: pointer;
+	float: right;
+}
+
+/* main form style */
+.main-form {
+	padding: 1rem;
+}
+
+.name-input .input-box:first-child {
+	margin-right: 1%;
+}
+.name-input {
+	width: 100%;
+}
+
+.input-box {
+	padding: 0.7rem 0.5rem;
+	font-size: 1rem;
+	border: 1px solid rgb(226, 224, 224);
+	border-radius: 5px;
+	background-color: #f5f6f7;
+}
+
+.input-box:focus {
+	border-color: rgba(226, 224, 224);
+	outline: none;
+}
+
+.input-box::placeholder {
+	color: rgb(165, 165, 165);
+}
+
+/* birthdate style */
+.input-label {
+	display: inline-block;
+	margin-bottom: 0.3rem;
+	font-size: 0.8rem;
+	color: #777777;
+}
+
+.birth-date-fields > .input-box:not(:last-child),
+.gender-input-fields > .input-box:not(:last-child) {
+	margin-right: 1%;
+}
+
+.birth-date-fields .input-box,
+.gender-input-fields .input-box {
+	background-color: #fff;
+}
+
+/* gender style */
+.single-gender-field {
+	display: inline-block;
+}
+.radio-icon {
+	float: right;
+	margin-top: 3px;
+}
+
+/* terms section */
+.terms-and-policy {
+	margin-bottom: 1.5rem;
+	font-size: 0.8rem;
+}
+
+.terms-text {
+	color: #777777;
+}
+
+.terms-link {
+	text-decoration: none;
+	color: #385898;
+}
+
+.terms-link:hover {
+	text-decoration: underline;
+}
+
+/* submit style */
+.sign-up {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.sign-up-button {
+	display: inline-block;
+	width: 45%;
+	border: none;
+	outline: none;
+	padding: 0.4rem 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #fff;
+	background-color: #00a400;
+	border-radius: 10px;
+}
+
+.sign-up-button:hover {
+	background-color: #02b102;
+}
+
+/* utility classes */
+.half-size {
+	width: 49%;
+}
+
+.one-third-size {
+	width: 32%;
+	padding: 0.4rem;
+}
+
+.full-size {
+	width: 100%;
+}
+
+.input-wrapper {
+	margin-bottom: 0.7rem;
+}
